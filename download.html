@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Download Tester</title>
+        <script src="ytb.js"></script>
+    </head>
+    <body>
+      <form id="test">
+        <fieldset>
+          <legend>멀티파일 다운로드</legend>
+          <div>
+            <input type="checkbox" name="file1" id="file1" value="/test1.zip"/><label for="file1">test1.zip</label>
+          </div>
+          <div>
+            <input type="button" value="Download All" onclick="suffix=1;downloadAll(this.form); return false" />
+          </div>
+
+        </fieldset>
+      </form>
+    </body>
+</html>
